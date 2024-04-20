@@ -1,0 +1,56 @@
+#jombotron {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f8faff
+}
+
+#jombotron2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #f8faff
+}
+
+.jumbrowcols {
+    padding-top: 90px;
+}
+
+.header1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+#jumimg {
+    width: 70%;
+    object-fit: cover;
+}
+
+.sections {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+@media (max-width: 991.98px) {
+    #jombotron {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #jombotron2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #jumimg {
+        margin-top: 30px;
+    }
+    .header1 {
+        font-size: 35px;
+    }
+    .jumbrowcols {
+        padding-top: 0px;
+    }
+    .sections {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
